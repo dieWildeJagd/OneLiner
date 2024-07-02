@@ -1,6 +1,6 @@
 # OneLiner 
 ## Your AI Study Assistant 
-Hello, welcome to OneLiner project- more description incoming!
+Hello, welcome to OneLiner project- more description incoming!!
 
 # Project Architecture and Tech Stack
 This repo adopt monorepo structure, which includes both Frontend and Backend code.
