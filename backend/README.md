@@ -56,3 +56,16 @@ follow `.env.copy` file as the environment template and fill the necessary crede
 Start the Django development server:
 ```
 python manage.py runserver
+```
+
+## Features and Interface
+### Features
+:rocket: This chatbot able to store chat history and store it in memory for now
+
+### available interface
+Here is available endpoints that the backend currently supports
+
+Endpoints                 |     Description     |       Headers         |
+--------------------------|---------------------|-----------------------|
+/POST api/prompt          | simple prompt chat bot with LLM without any context stored | N/A |
+/POST api/prompt-history  | simple prompt chat bot with LLM that can learn and gain context from chat history | "session-id": "{session-id e.g. session-123, must be unique} |
